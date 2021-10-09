@@ -14,38 +14,6 @@ auto func(T t, U u)->decltype(t + u)
 }
 
 
-//template<class T>
-//class Base
-//{
-//	T t;
-//};
-//
-//void test_03()
-//{
-//	cout << "size=" << sizeof(Base) << endl;
-//}
-
-
-class CSGO
-{
-public:
-	CSGO()
-	{
-		this->x = 10;
-	}
-
-	static void put(int x, int y)
-	{
-		cout << x << "," << y << endl;
-	}
-
-	~CSGO(){}
-public:
-	int x;
-};
-
-
-
 class Test
 {
 public:
@@ -216,8 +184,6 @@ int main()
 	
 
 	cout << endl << "-----------main end called-----------------" << endl;
-
-
 
 	return 0;
 }

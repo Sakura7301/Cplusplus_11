@@ -33,10 +33,10 @@
     <ClCompile Include="r_value_reference.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="string_test.cpp">
+    <ClCompile Include="vector_delete_data.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test_test.cpp">
+    <ClCompile Include="to_string.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
