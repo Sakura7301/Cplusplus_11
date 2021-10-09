@@ -85,6 +85,10 @@ void test02()
 }
 int main()
 {
-	//test01();
+	cout << endl << "内置数据类型:" << endl<<endl;
+	test01();
+
+	cout << endl << "自定义数据类型:" << endl<<endl;
 	test02();
+	return 0;
 }
