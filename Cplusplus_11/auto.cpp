@@ -53,7 +53,7 @@
 //}
 //
 //2>不能用于类的非静态成员变量初始化
-//class Test{
+//class test{
 //auto id=0;//error
 //static auto id2=0;error
 //static const auto id2=0;ok
@@ -66,11 +66,11 @@
 //auto t3[] = {1,2,3,4,5};;l // error, auto无法定义数组
 //
 //4>无法使用auto推导模板参数
-//template <typname T>
-//struct Test{}
+//template <typname t>
+//struct test{}
 //int func(){
-//Test<double> t;
-//Test<auto> t1=t;//error
+//test<double> t;
+//test<auto> t1=t;//error
 //}
 //
 //*/
@@ -78,13 +78,13 @@
 //
 ///*推荐使用的场景:
 //
-//1>STL容器的遍历
+//1>stl容器的遍历
 //
 //2>泛型编程
 //
 //*/
 //
-//class A {
+//class a {
 //public:
 //	static int get()
 //	{
@@ -92,7 +92,7 @@
 //	}
 //};
 //
-//class B {
+//class b {
 //public:
 //	static string get()
 //	{
@@ -101,10 +101,10 @@
 //};
 //
 ////函数模板
-//template <class T>
+//template <class t>
 //void func(void)
 //{
-//	auto ret = T::get();
+//	auto ret = t::get();
 //	cout << "ret:" << ret << endl;
 //	return;
 //}
@@ -114,8 +114,8 @@
 //{
 //	//test_01();
 //
-//	func<A>();
-//	func<B>();
+//	func<a>();
+//	func<b>();
 //
 //	return 0;
 //}

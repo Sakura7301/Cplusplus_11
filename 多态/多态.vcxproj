@@ -123,10 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Base.cpp" />
-    <ClCompile Include="Derived.cpp" />
     <ClCompile Include="duotai.cpp" />
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="virtaul.cpp" />
     <ClCompile Include="多态的本质.cpp" />
   </ItemGroup>
