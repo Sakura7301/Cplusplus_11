@@ -1,10 +1,9 @@
 #include<iostream>
 #include<string>
-#include<memory>
+#include<memory>  /*智能指针的头文件*/
 #include<functional>
 using namespace std;
 using callback = void(*)();
-
 
 //函数模板的返回值类型后置的标准写法(装逼必备技能)
 template<typename T, typename U>

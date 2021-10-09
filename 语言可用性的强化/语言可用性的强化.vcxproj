@@ -127,11 +127,15 @@
     <ClCompile Include="02 constexpr常量表达式.cpp" />
     <ClCompile Include="03 decltype类型推导.cpp" />
     <ClCompile Include="04 nullptr空指针.cpp" />
-    <ClCompile Include="05 r_value_reference右值引用.cpp" />
-    <ClCompile Include="06 Return_type_postcpp返回值类型后置.cpp" />
-    <ClCompile Include="07 to_string数值转字符串.cpp" />
+    <ClCompile Include="05 右值引用.cpp" />
+    <ClCompile Include="06 返回值类型后置.cpp" />
+    <ClCompile Include="07 数值转字符串.cpp" />
     <ClCompile Include="07 vfptr.cpp" />
     <ClCompile Include="08 vector删除元素.cpp" />
+    <ClCompile Include="09 初始化列表.cpp" />
+    <ClCompile Include="10 模板的类型别名.cpp" />
+    <ClCompile Include="11 委托构造.cpp" />
+    <ClCompile Include="12 继承构造.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
