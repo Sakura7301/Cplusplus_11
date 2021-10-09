@@ -15,37 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="08 virtaul关键字.cpp">
+    <ClCompile Include="02 vector.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\Cplusplus_11\07 vfptr.cpp">
+    <ClCompile Include="01 STL初识.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="06 组装电脑.cpp">
+    <ClCompile Include="03 transform_内置数据类型.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="05 制作饮品实例%28多态%29.cpp">
+    <ClCompile Include="04 transform_自定义数据类型.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="04 纯虚函数和抽象类.cpp">
+    <ClCompile Include="05 list高级排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03 多态计算器_02.cpp">
+    <ClCompile Include="06 for_each.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="02 动态多态_01.cpp">
+    <ClCompile Include="07 STL案例_评委打分.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="01 运算符++重载.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="09 workermanager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="10 多态.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="11 多态的本质.cpp">
+    <ClCompile Include="08 案例_员工分组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

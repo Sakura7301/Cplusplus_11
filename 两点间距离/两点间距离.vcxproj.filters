@@ -15,38 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="08 virtaul关键字.cpp">
+    <ClCompile Include="DD.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\Cplusplus_11\07 vfptr.cpp">
+    <ClCompile Include="Point.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="06 组装电脑.cpp">
+    <ClCompile Include="Yuan.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="05 制作饮品实例%28多态%29.cpp">
+    <ClCompile Include="两点间距离.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="04 纯虚函数和抽象类.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="03 多态计算器_02.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="02 动态多态_01.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="01 运算符++重载.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="09 workermanager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="10 多态.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="11 多态的本质.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Yuan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
