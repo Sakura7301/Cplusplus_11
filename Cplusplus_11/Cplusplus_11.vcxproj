@@ -19,14 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="auto.cpp" />
-    <ClCompile Include="constexpr.cpp" />
-    <ClCompile Include="decltype.cpp" />
-    <ClCompile Include="nullptr.cpp" />
-    <ClCompile Include="Return_type_postcpp.cpp" />
-    <ClCompile Include="r_value_reference.cpp" />
-    <ClCompile Include="to_string.cpp" />
-    <ClCompile Include="vector_delete_data.cpp" />
+    <ClCompile Include="auto关键字.cpp" />
+    <ClCompile Include="constexpr常量表达式.cpp" />
+    <ClCompile Include="decltype类型推导.cpp" />
+    <ClCompile Include="nullptr空指针.cpp" />
+    <ClCompile Include="Return_type_postcpp返回值类型后置.cpp" />
+    <ClCompile Include="r_value_reference右值引用.cpp" />
+    <ClCompile Include="to_string数值转字符串.cpp" />
+    <ClCompile Include="vector删除元素.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

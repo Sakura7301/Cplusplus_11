@@ -123,6 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="函数模板和普通函数的区别.cpp" />
+    <ClCompile Include="模板的局限性.cpp" />
+    <ClCompile Include="类模板数组封装.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="类模板数组封装.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

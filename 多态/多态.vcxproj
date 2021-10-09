@@ -124,8 +124,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Cplusplus_11\vfptr.cpp" />
-    <ClCompile Include="duotai.cpp" />
-    <ClCompile Include="virtaul.cpp" />
+    <ClCompile Include="多态.cpp" />
+    <ClCompile Include="virtaul关键字.cpp" />
     <ClCompile Include="多态的本质.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

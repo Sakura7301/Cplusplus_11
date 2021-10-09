@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="duotai.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="virtaul.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="多态的本质.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\Cplusplus_11\vfptr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="多态.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="virtaul关键字.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
