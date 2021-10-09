@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1684
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "语言可用性的强化", "Cplusplus_11\Cplusplus_11.vcxproj", "{06C65482-79F1-4A7A-8562-A79ED1341063}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "智能指针", "智能指针\智能指针.vcxproj", "{8981132D-F048-47C5-94F7-296B07AA2639}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多态", "多态\多态.vcxproj", "{7F9E8FFA-286D-43BF-88ED-AE951E656851}"
@@ -27,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "企业链表", "企业链�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "两点间距离", "两点间距离\两点间距离.vcxproj", "{73072445-CB97-4D30-A004-1CBED7687500}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "语言可用性的强化", "语言可用性的强化\语言可用性的强化.vcxproj", "{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -39,18 +39,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{06C65482-79F1-4A7A-8562-A79ED1341063}.Debug|ARM.ActiveCfg = Debug|Win32
-		{06C65482-79F1-4A7A-8562-A79ED1341063}.Debug|ARM64.ActiveCfg = Debug|Win32
-		{06C65482-79F1-4A7A-8562-A79ED1341063}.Debug|x64.ActiveCfg = Debug|x64
-		{06C65482-79F1-4A7A-8562-A79ED1341063}.Debug|x64.Build.0 = Debug|x64
-		{06C65482-79F1-4A7A-8562-A79ED1341063}.Debug|x86.ActiveCfg = Debug|Win32
-		{06C65482-79F1-4A7A-8562-A79ED1341063}.Debug|x86.Build.0 = Debug|Win32
-		{06C65482-79F1-4A7A-8562-A79ED1341063}.Release|ARM.ActiveCfg = Release|Win32
-		{06C65482-79F1-4A7A-8562-A79ED1341063}.Release|ARM64.ActiveCfg = Release|Win32
-		{06C65482-79F1-4A7A-8562-A79ED1341063}.Release|x64.ActiveCfg = Release|x64
-		{06C65482-79F1-4A7A-8562-A79ED1341063}.Release|x64.Build.0 = Release|x64
-		{06C65482-79F1-4A7A-8562-A79ED1341063}.Release|x86.ActiveCfg = Release|Win32
-		{06C65482-79F1-4A7A-8562-A79ED1341063}.Release|x86.Build.0 = Release|Win32
 		{8981132D-F048-47C5-94F7-296B07AA2639}.Debug|ARM.ActiveCfg = Debug|Win32
 		{8981132D-F048-47C5-94F7-296B07AA2639}.Debug|ARM64.ActiveCfg = Debug|Win32
 		{8981132D-F048-47C5-94F7-296B07AA2639}.Debug|x64.ActiveCfg = Debug|x64
@@ -191,6 +179,18 @@ Global
 		{73072445-CB97-4D30-A004-1CBED7687500}.Release|x64.Build.0 = Release|x64
 		{73072445-CB97-4D30-A004-1CBED7687500}.Release|x86.ActiveCfg = Release|Win32
 		{73072445-CB97-4D30-A004-1CBED7687500}.Release|x86.Build.0 = Release|Win32
+		{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}.Debug|ARM.ActiveCfg = Debug|Win32
+		{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}.Debug|x64.ActiveCfg = Debug|x64
+		{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}.Debug|x64.Build.0 = Debug|x64
+		{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}.Debug|x86.Build.0 = Debug|Win32
+		{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}.Release|ARM.ActiveCfg = Release|Win32
+		{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}.Release|ARM64.ActiveCfg = Release|Win32
+		{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}.Release|x64.ActiveCfg = Release|x64
+		{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}.Release|x64.Build.0 = Release|x64
+		{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}.Release|x86.ActiveCfg = Release|Win32
+		{6F2E9E2C-3FE9-4ED7-A211-996F037AD32C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

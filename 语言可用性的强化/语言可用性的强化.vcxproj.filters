@@ -36,6 +36,9 @@
     <ClCompile Include="07 to_string数值转字符串.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="07 vfptr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="08 vector删除元素.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
