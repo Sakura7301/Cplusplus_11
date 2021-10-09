@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1684
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cplusplus_11", "Cplusplus_11\Cplusplus_11.vcxproj", "{06C65482-79F1-4A7A-8562-A79ED1341063}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "语言可用性的强化", "Cplusplus_11\Cplusplus_11.vcxproj", "{06C65482-79F1-4A7A-8562-A79ED1341063}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "智能指针", "智能指针\智能指针.vcxproj", "{8981132D-F048-47C5-94F7-296B07AA2639}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "多态", "多态\多态.vcxproj", "{7F9E8FFA-286D-43BF-88ED-AE951E656851}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sort", "sort\sort.vcxproj", "{59FAB938-3342-4E64-9FE6-370203E32670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,30 @@ Global
 		{06C65482-79F1-4A7A-8562-A79ED1341063}.Release|x64.Build.0 = Release|x64
 		{06C65482-79F1-4A7A-8562-A79ED1341063}.Release|x86.ActiveCfg = Release|Win32
 		{06C65482-79F1-4A7A-8562-A79ED1341063}.Release|x86.Build.0 = Release|Win32
+		{8981132D-F048-47C5-94F7-296B07AA2639}.Debug|x64.ActiveCfg = Debug|x64
+		{8981132D-F048-47C5-94F7-296B07AA2639}.Debug|x64.Build.0 = Debug|x64
+		{8981132D-F048-47C5-94F7-296B07AA2639}.Debug|x86.ActiveCfg = Debug|Win32
+		{8981132D-F048-47C5-94F7-296B07AA2639}.Debug|x86.Build.0 = Debug|Win32
+		{8981132D-F048-47C5-94F7-296B07AA2639}.Release|x64.ActiveCfg = Release|x64
+		{8981132D-F048-47C5-94F7-296B07AA2639}.Release|x64.Build.0 = Release|x64
+		{8981132D-F048-47C5-94F7-296B07AA2639}.Release|x86.ActiveCfg = Release|Win32
+		{8981132D-F048-47C5-94F7-296B07AA2639}.Release|x86.Build.0 = Release|Win32
+		{7F9E8FFA-286D-43BF-88ED-AE951E656851}.Debug|x64.ActiveCfg = Debug|x64
+		{7F9E8FFA-286D-43BF-88ED-AE951E656851}.Debug|x64.Build.0 = Debug|x64
+		{7F9E8FFA-286D-43BF-88ED-AE951E656851}.Debug|x86.ActiveCfg = Debug|Win32
+		{7F9E8FFA-286D-43BF-88ED-AE951E656851}.Debug|x86.Build.0 = Debug|Win32
+		{7F9E8FFA-286D-43BF-88ED-AE951E656851}.Release|x64.ActiveCfg = Release|x64
+		{7F9E8FFA-286D-43BF-88ED-AE951E656851}.Release|x64.Build.0 = Release|x64
+		{7F9E8FFA-286D-43BF-88ED-AE951E656851}.Release|x86.ActiveCfg = Release|Win32
+		{7F9E8FFA-286D-43BF-88ED-AE951E656851}.Release|x86.Build.0 = Release|Win32
+		{59FAB938-3342-4E64-9FE6-370203E32670}.Debug|x64.ActiveCfg = Debug|x64
+		{59FAB938-3342-4E64-9FE6-370203E32670}.Debug|x64.Build.0 = Debug|x64
+		{59FAB938-3342-4E64-9FE6-370203E32670}.Debug|x86.ActiveCfg = Debug|Win32
+		{59FAB938-3342-4E64-9FE6-370203E32670}.Debug|x86.Build.0 = Debug|Win32
+		{59FAB938-3342-4E64-9FE6-370203E32670}.Release|x64.ActiveCfg = Release|x64
+		{59FAB938-3342-4E64-9FE6-370203E32670}.Release|x64.Build.0 = Release|x64
+		{59FAB938-3342-4E64-9FE6-370203E32670}.Release|x86.ActiveCfg = Release|Win32
+		{59FAB938-3342-4E64-9FE6-370203E32670}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

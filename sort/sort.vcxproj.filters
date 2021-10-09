@@ -15,28 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="nullptr.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="constexpr.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="auto.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="decltype.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Return_type_postcpp.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="r_value_reference.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="string_test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test_test.cpp">
+    <ClCompile Include="sort.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
