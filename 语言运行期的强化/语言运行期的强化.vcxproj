@@ -124,7 +124,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="01 Lambda表达式.cpp" />
-    <ClCompile Include="02 函数对象包装器.cpp" />
+    <ClCompile Include="02 可调用对象包装器.cpp" />
+    <ClCompile Include="04 异常抛出.cpp" />
+    <ClCompile Include="03 可调用对象绑定器.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

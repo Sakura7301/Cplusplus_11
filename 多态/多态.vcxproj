@@ -123,17 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Cplusplus_11\07 vfptr.cpp" />
     <ClCompile Include="01 运算符++重载.cpp" />
     <ClCompile Include="02 动态多态_01.cpp" />
     <ClCompile Include="03 多态计算器_02.cpp" />
     <ClCompile Include="04 纯虚函数和抽象类.cpp" />
     <ClCompile Include="05 制作饮品实例%28多态%29.cpp" />
     <ClCompile Include="06 组装电脑.cpp" />
-    <ClCompile Include="09 workermanager.cpp" />
-    <ClCompile Include="10 多态.cpp" />
-    <ClCompile Include="08 virtaul关键字.cpp" />
-    <ClCompile Include="11 多态的本质.cpp" />
+    <ClCompile Include="08 多态.cpp" />
+    <ClCompile Include="07 virtaul关键字.cpp" />
+    <ClCompile Include="09 多态的本质.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

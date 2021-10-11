@@ -18,7 +18,13 @@
     <ClCompile Include="01 Lambda表达式.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="02 函数对象包装器.cpp">
+    <ClCompile Include="02 可调用对象包装器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04 异常抛出.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="03 可调用对象绑定器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -15,12 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="08 virtaul关键字.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Cplusplus_11\07 vfptr.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="06 组装电脑.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -39,13 +33,13 @@
     <ClCompile Include="01 运算符++重载.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="09 workermanager.cpp">
+    <ClCompile Include="07 virtaul关键字.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="10 多态.cpp">
+    <ClCompile Include="08 多态.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="11 多态的本质.cpp">
+    <ClCompile Include="09 多态的本质.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

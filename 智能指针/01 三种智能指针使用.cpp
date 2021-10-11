@@ -5,7 +5,7 @@
 using namespace std;
 using callback = void(*)();
 
-//函数模板的返回值类型后置的标准写法(装逼必备技能)
+//函数模板的返回值类型后置的标准写法->装逼必备技能(bushi
 template<typename T, typename U>
 auto func(T t, U u)->decltype(t + u)
 {
@@ -18,20 +18,19 @@ class Test
 public:
 	Test()
 	{
-		cout << "-----------test 默认构造函数调用-----------" << endl;
+		cout << "-----------Test 默认构造函数调用-----------" << endl;
 	}
 	Test(int a):num(a)
 	{
-		cout << "-----------test 有参构造函数调用-----------" << endl;
+		cout << "-----------Test 有参构造函数调用-----------" << endl;
 	}
 	int getNum()
 	{
 		return num;
-		//cout << "getNum called" << endl;
 	}
 	~Test()
 	{
-		cout << "-----------test 析构函数调用---------------" << endl;
+		cout << "-----------Test 析构函数调用---------------" << endl;
 	}
 private:
 	int num;
@@ -40,8 +39,8 @@ private:
 
 
 
-
-void test_01(shared_ptr<Test> &ptr)//使用引用的方式传递智能指针,不会让use_count++
+/* 使用引用的方式传递智能指针,不会让use_count++ */
+void test_01(shared_ptr<Test> &ptr)
 {
 	cout << "-----------test_01 start called.-----------" << endl;
 	cout << "---->参数传递(ptr)" << endl;

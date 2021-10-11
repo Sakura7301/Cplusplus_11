@@ -1,3 +1,6 @@
+#if 0
+
+
 #include"类模板数组封装.hpp"
 #include <string>
 #include <iostream>
@@ -92,3 +95,4 @@ int main()
 	test02();
 	return 0;
 }
+#endif // 0
