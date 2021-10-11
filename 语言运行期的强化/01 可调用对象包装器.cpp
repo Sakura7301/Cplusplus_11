@@ -2,8 +2,10 @@
 
 #include<iostream>
 #include<functional>
-using namespace std;
 
+using std::cout;
+using std::endl;
+using std::function;
 
 /*
 首先,需要理解,什么是可调用对象
