@@ -54,5 +54,8 @@
     <ClCompile Include="13 继承构造.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="14 volatile关键字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

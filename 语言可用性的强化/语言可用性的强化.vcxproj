@@ -136,6 +136,7 @@
     <ClCompile Include="11 模板的类型别名.cpp" />
     <ClCompile Include="12 委托构造.cpp" />
     <ClCompile Include="13 继承构造.cpp" />
+    <ClCompile Include="14 volatile关键字.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

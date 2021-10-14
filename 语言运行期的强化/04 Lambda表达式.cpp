@@ -34,6 +34,12 @@ public:
 
 int main()
 {
+	/*
+	Test volatile test;
+	test.m_number = 200;
+	test.m_number++;
+	*/
+
 	/*完整的lambda表达式定义*/
 	auto func1 = [](int a) -> int{return a + 10;};
 	/*忽略返回值的lambda表达式定义*/
