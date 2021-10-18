@@ -1,4 +1,4 @@
-![example](https://img.shields.io/badge/cpp11-v1.0-red.svg)
+![example](https://img.shields.io/badge/cpp11-v1.0-red.svg)   ![example](https://img.shields.io/badge/user:-sakura-blue.svg)
 # Cplusplus_11
 
 
@@ -41,4 +41,3 @@
 
 感谢黑马程序员、爱编程的大丙、李建忠老师等无私奉献的前辈们。
 
-![example](https://img.shields.io/badge/user:-sakura-blue.svg)
