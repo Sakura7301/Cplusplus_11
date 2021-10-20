@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "语言可用性的强化", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "语言运行期的强化", "语言运行期的强化\语言运行期的强化.vcxproj", "{73E69CEA-5C16-4059-ACD2-A49BBEE4C0AB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mySTL", "mySTL\mySTL.vcxproj", "{E1EBE83A-71BE-4591-9506-421CFB1C0F84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -205,6 +207,18 @@ Global
 		{73E69CEA-5C16-4059-ACD2-A49BBEE4C0AB}.Release|x64.Build.0 = Release|x64
 		{73E69CEA-5C16-4059-ACD2-A49BBEE4C0AB}.Release|x86.ActiveCfg = Release|Win32
 		{73E69CEA-5C16-4059-ACD2-A49BBEE4C0AB}.Release|x86.Build.0 = Release|Win32
+		{E1EBE83A-71BE-4591-9506-421CFB1C0F84}.Debug|ARM.ActiveCfg = Debug|Win32
+		{E1EBE83A-71BE-4591-9506-421CFB1C0F84}.Debug|ARM64.ActiveCfg = Debug|Win32
+		{E1EBE83A-71BE-4591-9506-421CFB1C0F84}.Debug|x64.ActiveCfg = Debug|x64
+		{E1EBE83A-71BE-4591-9506-421CFB1C0F84}.Debug|x64.Build.0 = Debug|x64
+		{E1EBE83A-71BE-4591-9506-421CFB1C0F84}.Debug|x86.ActiveCfg = Debug|Win32
+		{E1EBE83A-71BE-4591-9506-421CFB1C0F84}.Debug|x86.Build.0 = Debug|Win32
+		{E1EBE83A-71BE-4591-9506-421CFB1C0F84}.Release|ARM.ActiveCfg = Release|Win32
+		{E1EBE83A-71BE-4591-9506-421CFB1C0F84}.Release|ARM64.ActiveCfg = Release|Win32
+		{E1EBE83A-71BE-4591-9506-421CFB1C0F84}.Release|x64.ActiveCfg = Release|x64
+		{E1EBE83A-71BE-4591-9506-421CFB1C0F84}.Release|x64.Build.0 = Release|x64
+		{E1EBE83A-71BE-4591-9506-421CFB1C0F84}.Release|x86.ActiveCfg = Release|Win32
+		{E1EBE83A-71BE-4591-9506-421CFB1C0F84}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,3 +1,8 @@
+#if 0
+
+
+
+
 #include<iostream>
 #include<string>
 #include<memory>  /*智能指针的头文件*/
@@ -186,3 +191,4 @@ int main()
 
 	return 0;
 }
+#endif // 0
