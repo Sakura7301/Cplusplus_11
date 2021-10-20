@@ -175,6 +175,7 @@ int main()
 	cout << endl << "unique_ptr的默认删除器执行:" << endl;
 	/*要使用默认删除器,只需要将数据类型声明 为[]即可*/
 	unique_ptr<Test[]> ptr_s2(new Test[5]);
+	//ptr_s2.get_deleter();
 	ptr_s2.reset();
 
 	cout << endl << "函数模板使用:" << endl;

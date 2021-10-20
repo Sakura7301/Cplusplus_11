@@ -60,6 +60,12 @@ int main()
 	cout << func3(100) << endl;
 	cout << func4(200) << endl;
 
+	/*·ºĞÍlambda*/
+	auto add = [](auto x, auto y) {	return (x + y); };
+	
+	cout << "add(int)=" << add(5, 10) << endl;
+	cout << "add(double)=" << add(7, 3.14) << endl;
+	cout << "add(char)=" << add('a', 'c') << endl;
 	return 0;
 }
 #endif // 0
