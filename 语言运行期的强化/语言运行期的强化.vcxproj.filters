@@ -30,5 +30,8 @@
     <ClCompile Include="03 可调用对象绑定器2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="06_线程.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -63,10 +63,6 @@ void stack<type>::push(type num)
 	/* 动态开辟空间(空间满时开辟一倍大) */
 	if (this->len!=0 && this->len%this->logic_len==0)
 	{
-		/*测试代码
-		std::cout << "[开辟空间]" << std::endl;
-		std::cout << "this->size()=" << this->size() << std::endl;
-		std::cout << "this->logic_size()=" << this->logic_size() << std::endl;*/
 		type* temp = new type[this->logic_len*2];
 		for (int i = 0; i < this->len; i++)
 		{

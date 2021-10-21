@@ -128,6 +128,7 @@
     <ClCompile Include="05 异常抛出.cpp" />
     <ClCompile Include="02 可调用对象绑定器.cpp" />
     <ClCompile Include="03 可调用对象绑定器2.cpp" />
+    <ClCompile Include="06_线程.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
