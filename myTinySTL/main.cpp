@@ -134,6 +134,10 @@ void stack_test_04()
 	stack.top();
 }
 
+
+
+
+
 int main()
 {
 	/*’ª≤‚ ‘*/
