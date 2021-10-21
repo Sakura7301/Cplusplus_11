@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{E1EBE83A-71BE-4591-9506-421CFB1C0F84}</ProjectGuid>
-    <RootNamespace>mySTL</RootNamespace>
+    <ProjectGuid>{45E1D617-0031-41A1-B7E2-82371390AE7B}</ProjectGuid>
+    <RootNamespace>myTinySTL</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,11 +123,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="stack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="deque.h" />
-    <ClInclude Include="stack.h" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
