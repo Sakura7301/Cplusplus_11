@@ -31,6 +31,11 @@ public:
 			this->push(m_stack.data[i]);
 		}
 	}
+
+	void operator&()
+	{
+
+	}
 private:
 	type *data;
 	int logic_len;/*Õ»Âß¼­³¤¶È*/

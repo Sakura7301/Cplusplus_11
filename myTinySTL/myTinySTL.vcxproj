@@ -124,7 +124,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="stack.h" />
-    <ClInclude Include="string.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
