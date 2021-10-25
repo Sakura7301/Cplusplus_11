@@ -137,6 +137,7 @@
     <ClCompile Include="12 委托构造.cpp" />
     <ClCompile Include="13 继承构造.cpp" />
     <ClCompile Include="14 volatile关键字.cpp" />
+    <ClCompile Include="15 tuple元组.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

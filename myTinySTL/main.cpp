@@ -36,7 +36,7 @@ void stack_test_01()
 		cout << "Õ»²»¿Õ" << endl;
 
 	}
-
+	
 	stack.clear();
 	if (stack.empty())
 	{

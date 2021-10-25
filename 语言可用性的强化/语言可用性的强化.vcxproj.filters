@@ -57,5 +57,8 @@
     <ClCompile Include="14 volatile关键字.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="15 tuple元组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
