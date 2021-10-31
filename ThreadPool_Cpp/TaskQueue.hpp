@@ -70,10 +70,6 @@ void TaskQueue<T>::addTask(callBack function, void * arg)
 {
 	pthread_mutex_lock(&m_mutex);
 	m_taskQueue.push(Task<T>(function, arg));
-	//Task<T> task;
-	//task.function = function;
-	//task.arg = arg;
-	//m_taskQueue.push(task);
 	pthread_mutex_unlock(&m_mutex);
 }
 

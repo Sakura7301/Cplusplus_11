@@ -99,7 +99,7 @@ ThreadPool* threadPoolCreate(int min,  int max, int queueSize)
 		{
 			pthread_create(&pool->workerIDs[i], NULL, worker, pool);
 		}
-		return pool;
+		return pool;	
 	} while (0); 
 
 	/*如果执行到此,说明线程池初始化失败了,释放资源即可*/
